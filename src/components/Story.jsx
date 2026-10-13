@@ -297,7 +297,7 @@ export default function Story({ perfumeSrc = "/images/perfume.png" }) {
       <div
         ref={perfumeColRef}
         aria-hidden
-        className="pointer-events-none absolute right-0 top-0 hidden h-full w-[42%] max-w-[600px] lg:block xl:right-6"
+        className="pointer-events-none absolute right-0 top-0 hidden h-full w-[42%] max-w-150 lg:block xl:right-6"
       >
         <div className="sticky top-0 flex h-screen items-center justify-center">
           <PerfumeVisual ref={perfumeAPIRef} src={perfumeSrc} alt="" />
@@ -412,7 +412,7 @@ export default function Story({ perfumeSrc = "/images/perfume.png" }) {
                   {/* Dot — sits on the rail at every breakpoint */}
                   <span
                     aria-hidden
-                    className="milestone-dot absolute top-[6px] h-3 w-3 -translate-x-1/2 rounded-full left-[13.5px] sm:left-1/2"
+                    className="milestone-dot absolute top-1.5 h-3 w-3 -translate-x-1/2 rounded-full left-[13.5px] sm:left-1/2"
                     style={{
                       background: "#d4af37",
                       boxShadow:
@@ -483,7 +483,7 @@ export default function Story({ perfumeSrc = "/images/perfume.png" }) {
               {/* Vertical rule running beside the seal */}
               <span
                 aria-hidden
-                className="pointer-events-none absolute left-1/2 top-0 h-full w-px -translate-x-1/2 sm:left-[110px] sm:translate-x-0"
+                className="pointer-events-none absolute left-1/2 top-0 h-full w-px -translate-x-1/2 sm:left-27.5 sm:translate-x-0"
                 style={{
                   background:
                     "linear-gradient(180deg, rgba(212,175,55,0.0), rgba(212,175,55,0.35) 30%, rgba(212,175,55,0.35) 70%, rgba(212,175,55,0.0))",
